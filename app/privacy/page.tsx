@@ -91,7 +91,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-black mb-4 text-fridge-brown font-poppins">Contact Us</h2>
               <p>
-                If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:ridhisanghrajka@gmail.com" className="underline font-bold">ridhisanghrajka@gmail.com</a>
+                If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:ourfridgeapp@gmail.com" className="underline font-bold">ourfridgeapp@gmail.com</a>
               </p>
             </section>
           </div>

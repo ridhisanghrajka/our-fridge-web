@@ -25,7 +25,7 @@ export default function SupportPage() {
             </div>
 
             <a 
-              href="mailto:ridhisanghrajka@gmail.com" 
+              href="mailto:ourfridgeapp@gmail.com" 
               className="inline-block bg-fridge-brown text-white px-12 py-5 rounded-2xl font-black text-xl shadow-xl hover:scale-105 transition-all active:scale-95"
             >
               Email Support
