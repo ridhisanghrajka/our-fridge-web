@@ -25,13 +25,15 @@ export const Header = () => {
         <nav className="flex gap-3 sm:gap-6 md:gap-8 items-center">
           <Link href="/#download" className="text-sm font-bold text-fridge-brown/70 hover:text-fridge-brown transition-colors hidden sm:block">Download</Link>
           <Link href="/support" className="text-sm font-bold text-fridge-brown/70 hover:text-fridge-brown transition-colors hidden sm:block">Support</Link>
-          <motion.button 
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-fridge-brown text-white px-4 sm:px-5 py-2 rounded-xl shadow-lg text-sm font-bold whitespace-nowrap"
-          >
-            Get App
-          </motion.button>
+          <Link href="https://apps.apple.com/app/id6758370961" target="_blank" rel="noopener noreferrer">
+            <motion.button 
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-fridge-brown text-white px-4 sm:px-5 py-2 rounded-xl shadow-lg text-sm font-bold whitespace-nowrap"
+            >
+              Get App
+            </motion.button>
+          </Link>
         </nav>
       </motion.header>
     </div>
